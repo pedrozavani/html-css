@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover</title>
+    <style>
+        div{
+           color: darkslategrey;
+           width: 200px;
+           height: 200px;
+           background-color: aqua;
+        }
+        div > p {
+            display: none;
+
+        }
+        div:hover p{
+            display: block;
+            color:cadetblue ;
+            background-color: beige;
+            width: 200px;
+            height: 165px;
+        }
+        div:hover{
+            color: blue;
+        }
+        body{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>chama</h1>
+    <p>passa o mouse</p>
+    <div>AQUI SEU LOKO
+        <p> VOU COMER GERAS</p>
+    </div>
+</body>
+</html>

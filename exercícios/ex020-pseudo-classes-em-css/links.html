@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link</title>
+    <style>
+        body{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        a{
+            color: rebeccapurple;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-decoration: none;
+        }
+        a:visited{
+            color: violet;
+
+        }
+        a:hover{
+            color: cadetblue;
+            text-decoration: underline;
+        }
+        .especial::before{
+            content:'>';
+            text-decoration: none;
+            font-weight: normal;
+            color: black;
+        }
+        .especial::after{
+            content:'<';
+            text-decoration: none;
+            font-weight: normal;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=s0rFGb1iGEQ&ab_channel=bunny" target="_blank " class="especial">Nóis-É-Nois</a></li>
+        <li><a href="https://www.youtube.com/watch?v=BLEK4FNyvp4&ab_channel=MCGP" target="_blank">Mimo-Caro-MCGP</a></li>
+        <li><a href="https://www.youtube.com/watch?v=Yqi37U9d9zY&ab_channel=GR6EXPLODE" target="_blank">A Semana Inteira</a></li>
+    </ul>
+</body>
+</html>

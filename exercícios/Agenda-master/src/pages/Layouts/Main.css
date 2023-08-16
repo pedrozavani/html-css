@@ -1,0 +1,19 @@
+.App {
+    text-align: left;
+    background: #282c34;
+  }
+
+  .Todo-junto{
+    background: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    margin-left: 20px;
+    color: white;
+  }
+
+  .tittle{
+    font-weight: bold;
+    font-size: 27px;
+  }
