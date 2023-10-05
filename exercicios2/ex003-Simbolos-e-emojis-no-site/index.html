@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Botão que se move para direções aleatórias</h1>
+    <button onclick="mover()">Mover</button>
+  
+    <script>
+      function mover() {
+        var botao = document.querySelector("button");
+        var direcoes = ["cima", "baixo", "esquerda", "direita"];
+        var direcao = direcoes[Math.floor(Math.random() * direcoes.length)];
+  
+        switch (direcao) {
+          case "cima":
+            botao.style.top = "100px";
+            break;
+          case "baixo":
+            botao.style.top = "300px";
+            break;
+          case "esquerda":
+            botao.style.left = "100px";
+            break;
+          case "direita":
+            botao.style.left = "300px";
+            break;
+        }
+      }
+    </script>
+  </body>
+</html>
